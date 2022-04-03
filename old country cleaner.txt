@@ -1,0 +1,139 @@
+    '''
+    for x in df.index:
+        if df.loc[x, 'Country'] in Remove:
+            df.drop(x)
+        elif df.loc[x,'Country'] in USA:
+            df.loc[x,'Country'] = 'USA'
+        elif df.loc[x,'Country'] in UK:
+            df.loc[x,'Country'] = 'UK'
+        elif df.loc[x,'Country'] in Canada:
+            df.loc[x,'Country'] = 'Canada'
+        elif df.loc[x,'Country'] in Netherlands:
+            df.loc[x,'Country'] = 'Netherlands'
+        elif df.loc[x,'Country'] in Finland:
+            df.loc[x,'Country'] = 'Finland'
+        elif df.loc[x,'Country'] in Germany:
+            df.loc[x,'Country'] = 'Germany'
+        elif df.loc[x,'Country'] in Australia:
+            df.loc[x,'Country'] = 'Australia'
+        elif df.loc[x,'Country'] in France:
+            df.loc[x,'Country'] = 'France'
+        elif df.loc[x,'Country'] in Sweden:
+            df.loc[x,'Country'] = 'Sweden'
+        elif df.loc[x,'Country'] in New_Zealand:
+            df.loc[x,'Country'] = 'New_zealand'
+        elif df.loc[x,'Country'] in India:
+            df.loc[x,'Country'] = 'India'
+        elif df.loc[x,'Country'] in Ireland:
+            df.loc[x,'Country'] = 'Ireland'
+        elif df.loc[x,'Country'] in Croatia:
+            df.loc[x,'Country'] = 'Croatia'
+        elif df.loc[x,'Country'] in Pakistan:
+            df.loc[x,'Country'] = 'Pakistan'
+        elif df.loc[x,'Country'] in Mexico:
+            df.loc[x,'Country'] = 'Mexico'
+        elif df.loc[x,'Country'] in China:
+            df.loc[x,'Country'] = 'China'
+        elif df.loc[x,'Country'] in Japan:
+            df.loc[x,'Country'] = 'Japan'
+        elif df.loc[x,'Country'] in Spain:
+            df.loc[x, 'Country'] = 'Spain'
+        elif df.loc[x,'Country'] in Russia:
+            df.loc[x, 'Country'] = 'Russia'
+        elif df.loc[x, 'Country'] in Bangladesh:
+            df.loc[x, 'Country'] = 'Bangladesh'
+        elif df.loc[x, 'Country'] in Brazil:
+            df.loc[x, 'Country'] = 'Brazil'
+        elif df.loc[x, 'Country'] in Czech_Republic:
+            df.loc[x, 'Country'] = 'Czech_Republic'
+        elif df.loc[x, 'Country'] in South_Africa:
+            df.loc[x, 'Country'] = 'South_Africa'
+        elif df.loc[x, 'Country'] in Uzbekistan:
+            df.loc[x, 'Country'] = 'Uzbekistan'
+        elif df.loc[x, 'Country'] in Belgium:
+            df.loc[x, 'Country'] in "Belgium"
+        elif df.loc[x, 'Country'] in Denmark:
+            df.loc[x, 'Country'] = "Denmark"
+        elif df.loc[x, 'Country'] in Switzerland:
+            df.loc[x, 'Country'] = "Switzerland"
+        elif df.loc[x, 'Country'] in Italy:
+            df.loc[x, 'Country'] = "Italy"
+        elif df.loc[x, 'Country'] in Argentina:
+            df.loc[x, 'Country'] = "Argentina"
+        elif df.loc[x, 'Country'] in Norway:
+            df.loc[x, 'Country'] = "Norway"
+        elif df.loc[x, 'Country'] in Israel:
+            df.loc[x, 'Country'] = 'Israel'
+        elif df.loc[x, 'Country'] in Austria:
+            df.loc[x, 'Country'] = 'Austria'
+        elif df.loc[x, 'Country'] in Poland:
+            df.loc[x, 'Country'] = 'Poland'
+        elif df.loc[x, 'Country'] in Thailand:
+            df.loc[x, 'Country'] = 'Thailand'
+        elif df.loc[x, 'Country'] in Ukraine:
+            df.loc[x, 'Country'] = 'Ukraine'
+        elif df.loc[x, 'Country'] in Latvia:
+            df.loc[x, 'Country'] = 'Latvia'
+        elif df.loc[x, 'Country'] in North_Korea:
+            df.loc[x, 'Country'] = 'North_Korea'
+        elif df.loc[x, 'Country'] in South_Korea:
+            df.loc[x, 'Country'] = 'South_Korea'
+        elif df.loc[x, 'Country'] in United_Arab_Emirates:
+            df.loc[x, 'Country'] = 'United_Arab_Emirates'
+        elif df.loc[x, 'Country'] in Greece:
+            df.loc[x, 'Country'] = 'Greece'
+        elif df.loc[x, 'Country'] in Romania:
+            df.loc[x, 'Country'] = 'Romania'
+        elif df.loc[x, 'Country'] in Malaysia:
+            df.loc[x, 'Country'] = 'Malaysia'
+        elif df.loc[x, 'Country'] in Portugal:
+            df.loc[x, 'Country'] = 'Portugal'
+        elif df.loc[x, 'Country'] in Namibia:
+            df.loc[x, 'Country'] = 'Namibia'
+        elif df.loc[x, 'Country'] in Philippines:
+            df.loc[x, 'Country'] = 'Philippines'
+        elif df.loc[x, 'Country'] in Singapore:
+            df.loc[x, 'Country'] = 'Singapore'
+        elif df.loc[x, 'Country'] in Cyprus:
+            df.loc[x, 'Country'] = 'Cyprus'
+        elif df.loc[x, 'Country'] in Kenya:
+            df.loc[x, 'Country'] = 'Kenya'
+        elif df.loc[x, 'Country'] in Taiwan:
+            df.loc[x,'Country'] = 'Taiwan'
+        elif df.loc[x, 'Country'] in Bermuda:
+            df.loc[x,'Country'] = 'Bermuda'
+        elif df.loc[x, 'Country'] in Kuwait:
+            df.loc[x, 'Country'] = 'Kuwait'
+        elif df.loc[x, 'Country'] in Sri_Lanka:
+            df.loc[x, 'Country'] = 'Sri_Lanka'
+        elif df.loc[x, 'Country'] in Hungary:
+            df.loc[x, 'Country'] = 'Hungary'
+        elif df.loc[x, 'Country'] in Luxembourg:
+            df.loc[x, 'Country'] = 'Luxembourg'
+        elif df.loc[x, 'Country'] in Colombia:
+            df.loc[x, 'Country'] = 'Colombia'
+        elif df.loc[x, 'Country'] in Trinidad_and_Tobago:
+            df.loc[x, 'Country'] = 'Trinidad_and_Tobago'
+        elif df.loc[x, 'Country'] in Cayman_Islands:
+            df.loc[x, 'Country'] = 'Cayman_Islands'
+        elif df.loc[x, 'Country'] in Czechia:
+            df.loc[x, 'Country'] = 'Czechia'
+        
+        else:
+            not_changed.append(df.loc[x,'Country'])
+        
+    '''    
+    '''
+    #print(df['Country'])
+    country_totals = {}
+    for x in df['Country']:
+        if x not in country_totals:
+            country_totals[x]=1
+        elif x in country_totals:
+            amount=country_totals[x]
+            country_totals[x]=amount+1
+    #print(country_totals)
+    print(not_changed)
+    
+    return df
+    '''
